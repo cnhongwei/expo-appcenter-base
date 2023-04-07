@@ -1,11 +1,9 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-import * as ExpoAppcenterBase from 'expo-appcenter-base';
-
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>{ExpoAppcenterBase.hello()}</Text>
+      <Text>Hello</Text>
     </View>
   );
 }
